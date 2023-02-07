@@ -1,0 +1,214 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #1d1d1d;
+    width: 100%;
+    height: 125px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    top: 0px;
+  }
+
+  header h2{
+    margin: 20px;
+    font-family: 'Lobster', cursive;
+    color: #E1341E;
+    font-size: 32px;
+  }
+
+  header h4{
+    margin: 20px;
+    font-family: 'Lobster', cursive;
+    color: #f4f4f4;
+    font-size: 26px;
+  }
+  header nav menu{
+    list-style: none;
+    display:flex;
+    margin: 0;
+  }
+  header nav menu li{
+    padding: 0px 15px;
+  }
+  header a:link,header a:visited{
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Lobster',cursive;
+
+  }
+  header a:hover, header a:active, header a:focus {
+    color: #E1341E;
+  }
+
+  main{
+    background-color: #0e0e0e;
+    width: 100%;
+  }
+
+  
+  #first{
+    height: 100vh;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    align-items: center;
+  }
+
+  #first span{
+    color:rgba(255, 38, 0, 0.842);
+    font-family: 'Lobster', cursive;
+  }
+
+  #first span:hover{
+    color:rgba(255, 188, 0, 0.842);
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+  }
+
+  #second{
+    height: 100vh;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    align-items: center;
+  }
+
+  #second span{
+    color:rgba(255, 38, 0, 0.842);
+    font-family: 'Lobster', cursive;
+  }
+
+  #second span:hover{
+    color:rgba(255, 188, 0, 0.842);
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+  }
+
+  #last{
+    height: 100vh;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    align-items: center;
+    color:#f4f4f4
+    
+  }
+  #last span{
+    color:rgba(255, 38, 0, 0.842);
+    font-family: 'Lobster', cursive;
+  }
+
+  #last span:hover{
+    color:rgba(255, 188, 0, 0.842);
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+  }
+
+  #chorus{
+    height: 100vh;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    align-items: center;
+  }
+
+  #chorus span{
+    color:rgba(255, 38, 0, 0.842);
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+  }
+
+  #chorus span:hover{
+    color:rgba(255, 188, 0, 0.842);
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+  }
+
+  main p{
+    text-align: center;
+    justify-content: center;
+    font-size: 32px;
+  }
+
+  .miths{
+    background-image: url("../img/SJLT_thumb-2.jpg");
+    background-size: 158%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: auto;
+    
+  }
+
+  .miths p{
+    font-family: 'Itim', cursive;
+    color: #f4f4f4;
+    font-size: 32px;
+    
+  }
+
+
+  
+
+  .like-this{
+    background-image: url("../img/SongsBlog3-img.jpg");
+    background-size:140%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: auto;
+  }
+
+  .like-this p{
+    color: #f4f4f4;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+  }
+
+
+  .Doo{
+    background-image: url("../img/giphy.gif");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: auto;
+  }
+
+  .Doo p{
+    font-family: 'Permanent Marker', cursive;
+    color: #f4f4f4;
+  }
+
+  .last-1{
+    background-image: url("../img/wp8647027-something-just-like-this-wallpapers.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+    width: auto;
+  }
+
+  .last-1 p{
+    color: #f4f4f4;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+  }
+
+
+  .last-2{
+    background-image: url("../img/giphy\ \(1\).gif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+    width: auto;
+  }
+
+  .last-2 p{
+    font-family: 'Permanent Marker', cursive;
+    color: #f4f4f4;
+  }
